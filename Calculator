@@ -1,0 +1,13 @@
+program calculator;
+var a, b, c, d, e, f: real;
+begin
+ReadLn(a, b);
+c:= a + b;
+Writeln(a, '+', b, '=', c);
+d:= a - b;
+Writeln(a, '-', b, '=', d);
+e:= a * b;
+Writeln(a, '•', b, '=', e);
+f:= a / b;
+Writeln(a, '÷', b, '=', f);
+end.
